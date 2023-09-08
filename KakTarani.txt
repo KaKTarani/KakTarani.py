@@ -1,2 +1,2 @@
-Code-man.pyc
+Code-man.py
 10264u0_a264
