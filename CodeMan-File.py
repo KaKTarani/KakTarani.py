@@ -362,13 +362,13 @@ def banner():
         bo 4mang 5 bo hata hataya 10korak
         be enc ba 15$                   
    
-                 ''',width=79,title=f'[bold green]BANNER',style='bold hot_pink2'))
+                 ''',width=79,title=f'[bold green]KAKTARANI',style='bold hot_pink2'))
 #--------------------[ BAGIAN-MASUK ]--------------#
 import requests,json,re
 ses = requests.Session()
 #def loginraf():
 #	clear()
-#	banner()
+#	kaktarani()
 #	tree = Tree(' ')
 #	tree.add(f'{h}1.  {P} CRACK NO LOGIN'):	tree.add(f'{h}2. {P} CRACK LOGIN COOKIE')
 #	tree.add(f'{h}0. {P} EXIT')
@@ -387,9 +387,9 @@ ses = requests.Session()
 #
 def login():
 	os.system('clear')
-	banner()
+	KakTarani()
 	print(' ')
-	print(f' {H}[1]ANTI BYPASS')
+	print(f' {H}[1]Chuna-Zhurawa')
 	opt = input(f'{B} CHOOSE : {H}')
 	if opt =='1':
 		os.system('pip uninstall requests -y && pip install requests')
