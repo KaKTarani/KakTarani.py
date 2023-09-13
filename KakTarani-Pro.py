@@ -78,8 +78,8 @@ bu = current.month
 ha = current.day
 
 #USER-AGENTS
-ugen2=[KakTarani]
-ugen=[KakTarani]
+ugen2=[]
+ugen=[]
 cokbrut=[]
 ses=requests.Session()
 princp=[]
@@ -186,7 +186,7 @@ else:
     a = ltx
     tag = "\x1b[1;96mAM"
 #IPYTHONI
-def _____DYNO_____(u):
+def _____KAKTARANI_____(u):
         for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.002)
 def tahun(fx):
 	if len(fx)==15:
@@ -243,8 +243,8 @@ banner()
 def menu():
 	
 	print(f'\x1b[1;93m1- CRACK WITH FILE')
-	_____DYNO_____ = input('\x1b[1;93mSELECT :\x1b[1;97m ')
-	if _____DYNO_____ in ['1']:
+	_____KAKTARANI_____ = input('\x1b[1;93mSELECT :\x1b[1;97m ')
+	if _____KAKTARANI_____ in ['1']:
 		F()
 		print(' \x1b[1;91m\x1b[1;96m\x1b[1;97m LogOut Successful ')
 		exit()
