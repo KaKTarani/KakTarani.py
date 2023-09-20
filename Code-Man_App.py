@@ -58,7 +58,7 @@ def sasuke():
         print('\033[0;91mYour Id Not Activate Send Chat To @KakTarani')
         exit()
       
-kaktarani()
+sasuke()
 
 #logika--tahun#
 def tahun(fx):
