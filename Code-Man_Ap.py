@@ -49,7 +49,7 @@ def sasuke():
     id = "<>".join(uuid)
     print("\n\n\x1b[37;1m  YOUR ID : \033[94m"+id)
     try:
-        url = requests.get("https://pastebin.com/raw/1rDN4NtY").text
+        url = requests.get("https://pastebin.com/raw/kJ7VX44d").text
     except requests.exceptions.ConnectionError:
         print('No Internet Connection')
     if id in url:
