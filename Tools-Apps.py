@@ -512,7 +512,6 @@ def passwrd():
 				if len(frs)<3:
 					pass
 			def passwrd():
-    os.system('clear')
     print(logo)
     print(f"\033[97;1m[\033[92;1m+\033[97;1m] \033[1;92mUSER NAME\033[1;91m :\033[1;96m "+uname)
     print("\033[97;1m[\033[92;1m•\033[97;1m] \033[10;93mTODAY'S DATE :\033[1;92m "+date)
