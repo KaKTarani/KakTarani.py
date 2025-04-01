@@ -3,29 +3,7 @@ from os import path
 import os,base64,zlib,pip,urllib
 os.system('xdg-open https://www.snapchat.com/add/korshtarani?share_id=28NhQ1En0Y4&locale=en-GB')
 print('\n\033[1;37m baxer bey bo naw tooli KaᵏTaranⁱ.⁰¹³🇮🇷🔥....')
-def chk():
 
-  uuid = str(os.geteuid()) + str(os.getlogin()) 
-
-  id = "".join(uuid)
-   
-  print("\n\n\x1b[37;1m  YOUR ID : \033[94m"+id) 
-  print(" ") 
-  try: 
-
-    httpCaht = requests.get("https://github.com/KaKTarani/KakTarani.py/tree/main").text 
-
-    if id in httpCaht: 
-
-      print("\033[92m  YOUR ID ACTIVE.... \033[97m") 
-
-      msg = str(os.geteuid()) 
-
-      time.sleep(1) 
-
-      pass 
-
-    else: 
       
 
       print("\033[1;97m TOOL VIP 15$ ASYA YOU 30 DAY @KakTarani") 
